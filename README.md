@@ -1,9 +1,9 @@
-1. employees → departments JOIN edərək işçi və department adını göstər
+## 1. employees → departments JOIN edərək işçi və department adını göstər
 SELECT e.first_name, e.last_name, d.department_name
 FROM hr.employees e
 JOIN hr.departments d
 ON e.department_id = d.department_id;
-2. Hər bir işçinin job_title-nı göstər
+## 2. Hər bir işçinin job_title-nı göstər
 SELECT e.first_name, e.last_name, j.job_title
 FROM hr.employees e
 JOIN hr.jobs j
