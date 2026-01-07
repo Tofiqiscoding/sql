@@ -1,6 +1,6 @@
 ## SALAM ALAKUM
 
-## 1. employees → departments JOIN edərək işçi və department adını göstər
+# 1. employees → departments JOIN edərək işçi və department adını göstər
 ```sql
 SELECT e.first_name, e.last_name, d.department_name
 FROM hr.employees e
